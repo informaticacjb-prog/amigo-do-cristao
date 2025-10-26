@@ -18,14 +18,14 @@ export default {
     },
     platforms: ["ios", "android", "web"],
     android: {
-      package: "area.crista2", // pacote exato do Firebase
-      versionCode: 1,
-      googleServicesFile: "android/app/google-services.json",
-      adaptiveIcon: {
-        foregroundImage: "./assets/adaptive-icon.png",
-        backgroundColor: "#FFFFFF"
-      }
-    },
+  package: "area.crista2",
+  versionCode: 1,
+  googleServicesFile: process.env.GOOGLE_SERVICES_JSON,
+  adaptiveIcon: {
+    foregroundImage: "./assets/adaptive-icon.png",
+    backgroundColor: "#FFFFFF"
+  }
+},
     ios: {
       supportsTablet: true,
       bundleIdentifier: "com.seunome.amigodocristao"
