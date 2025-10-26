@@ -1,29 +1,44 @@
 {
   "expo": {
-    "name": "amigo-do-cristao",
-    "slug": "amigo-do-cristao",
+    "name": "Amigo do Cristão",
+    "slug": "areacrista",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "android": {
+      "package": "com.seunome.amigodocristao",
+      "versionCode": 1,
+      "googleServicesFile": "android/app/google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+        "backgroundColor": "#FFFFFF"
+      }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.seunome.amigodocristao"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "amigo-do-cristao"
+      }
     }
   }
 }
