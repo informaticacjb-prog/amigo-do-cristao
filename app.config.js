@@ -20,7 +20,7 @@ export default {
     android: {
       package: "area.crista2", // pacote exato do Firebase
       versionCode: 1,
-      googleServicesFile: process.env.GOOGLE_SERVICES_JSON, // usa a variável do EAS
+      googleServicesFile: "android/app/google-services.json",
       adaptiveIcon: {
         foregroundImage: "./assets/adaptive-icon.png",
         backgroundColor: "#FFFFFF"
