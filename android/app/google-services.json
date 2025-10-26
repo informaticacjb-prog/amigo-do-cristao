@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "963253995047",
+    "project_id": "areacrista",
+    "storage_bucket": "areacrista.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963253995047:android:12e8e1a26507f3c64bf002",
+        "android_client_info": {
+          "package_name": "area.crista2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963253995047-ld6p4pdjeuamp8ao0023esauu246toe3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZbmDo9FUHqXsTK_UQXczKokOhPU3cAns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963253995047-ld6p4pdjeuamp8ao0023esauu246toe3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
