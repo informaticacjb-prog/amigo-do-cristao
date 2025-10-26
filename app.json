@@ -23,7 +23,7 @@
       "web"
     ],
     "android": {
-  "package": "area.crista2",
+  "package": "com.seunome.amigodocristao",
   "versionCode": 1,
   "googleServicesFile": "@GOOGLE_SERVICES_JSON",
   "adaptiveIcon": {
