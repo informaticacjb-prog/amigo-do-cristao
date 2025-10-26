@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Amigo do Cristão",
-    "slug": "areacrista",
+    "slug": "amigo-do-cristao",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,7 +23,7 @@
       "web"
     ],
     "android": {
-      "package": "com.seunome.amigodocristao",
+      "package": "area.crista2",
       "versionCode": 1,
       "googleServicesFile": "android/app/google-services.json",
       "adaptiveIcon": {
@@ -37,7 +37,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "amigo-do-cristao"
+        "projectId": "644b25ac-8b07-46b3-b64b-09ee8f37a51d"
       }
     }
   }
