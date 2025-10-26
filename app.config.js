@@ -1,3 +1,4 @@
+// app.config.js
 export default {
   expo: {
     name: "Amigo do Cristão",
@@ -17,14 +18,14 @@ export default {
     },
     platforms: ["ios", "android", "web"],
     android: {
-  package: "area.crista2",  // <<== exatamente como no Firebase
-  versionCode: 1,
-  googleServicesFile: process.env.GOOGLE_SERVICES_JSON,
-  adaptiveIcon: {
-    foregroundImage: "./assets/adaptive-icon.png",
-    backgroundColor: "#FFFFFF"
-  }
-},
+      package: "area.crista2", // pacote exato do Firebase
+      versionCode: 1,
+      googleServicesFile: process.env.GOOGLE_SERVICES_JSON, // usa a variável do EAS
+      adaptiveIcon: {
+        foregroundImage: "./assets/adaptive-icon.png",
+        backgroundColor: "#FFFFFF"
+      }
+    },
     ios: {
       supportsTablet: true,
       bundleIdentifier: "com.seunome.amigodocristao"
